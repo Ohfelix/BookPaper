@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 
 
-const Felix = () => {
+export default function Felix() {
   return (
 
 
@@ -132,4 +132,3 @@ const Felix = () => {
   )
 }
 
-export default Felix

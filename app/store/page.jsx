@@ -6,7 +6,7 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
 
-const Store = () => {
+export default function Store() {
     return (
         <>
 
@@ -170,4 +170,3 @@ const Store = () => {
     )
 }
 
-export default Store
