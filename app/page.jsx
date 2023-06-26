@@ -1,6 +1,7 @@
 import Feed from "@components/Feed"
 
 
+
 const Home = () => {
 
     return (
@@ -15,6 +16,7 @@ const Home = () => {
                     On our homepage, we want to create a unique space where you can connect with other lovers of reading and share powerful quotes from books that have made a difference in your life.
                 </p>
                 <Feed />
+               
           
             </section>
         </>
