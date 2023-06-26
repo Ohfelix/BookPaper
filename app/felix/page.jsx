@@ -1,11 +1,13 @@
 'use client'
 import React from 'react'
 import Link from 'next/link'
-import { BsInstagram, BsYoutube, BsLinkedin } from 'react-icons/bs';
+
 
 
 const Felix = () => {
   return (
+
+
     <div className='sm:flex justify-center mb-8'>
       <div className='flex '>
         <div className="flex-initial max-w-md  bg-white rounded-xl shadow-lg overflow-hidden md:max-w-2xl">
@@ -42,7 +44,7 @@ const Felix = () => {
                 <div className="uppercase tracking-wide text-lg text-blue-700 font-semibold">Curso Fullstack Igor Oliveira</div>
               </div>
             </div>
-            <div className="flex justify-center text-center  p-4 tracking-wide text-lg text-black-500 font-semibold ">These are the main technologies in which I have experience to work on projects.
+            <div className="flex justify-center text-center uppercase p-4 tracking-wide text-lg text-black-500 font-semibold ">Estas são as principais tecnolgias das quais tenho experiência para atuar em projetos.
             </div>
             <div className='flex justify-center'>
               <ul className='bg-white-500 p-3 grid lg:grid-flow-col lg:grid-rows-2 lg:grid-cols-3 gap-8 '>
@@ -111,7 +113,7 @@ const Felix = () => {
                   My Store</p></Link>
                 <Link href={"/project"}><p className="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-blue-200 hover:text-slate-900">
                   This project </p></Link>
-             
+
               </div>
             </div>
           </div>
@@ -126,6 +128,7 @@ const Felix = () => {
         </Link>
       </div>
     </div>
+
   )
 }
 

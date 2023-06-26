@@ -36,6 +36,13 @@ const Nav = () => {
             <div className="sm:flex hidden">
                 {session?.user ? (
                     <div className="flex gap-3 md:gap-5">
+                        <Link href="/felix"
+                        type="button"
+                            className=" bg-blue-600 text-white text-center text-sm leading-6 font-large p-3 py-2 px-3 rounded-xl "
+                            onClick={() => setToggleDropdown
+                                (false)}>
+                            About me !
+                        </Link>
                         <Link href="/create-prompt"
                             className="black_btn">
                             Create Note

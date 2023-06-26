@@ -5,6 +5,7 @@ import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 
 import Form from "@components/Form";
+import RootLayout from "@app/Layout";
 
 const CreatePrompt = () => {
   const router = useRouter();
@@ -38,6 +39,8 @@ const CreatePrompt = () => {
   };
 
   return (
+
+
     <Form
       type='Create'
       post={post}
@@ -45,6 +48,7 @@ const CreatePrompt = () => {
       submitting={submitting}
       handleSubmit={createPrompt}
     />
+
   );
 };
 

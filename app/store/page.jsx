@@ -1,4 +1,5 @@
 'use client'
+
 import Link from 'next/link';
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
@@ -8,6 +9,8 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 const Store = () => {
     return (
         <>
+
+
             <div className="w-full flex-center flex-col p-5 mb-5">
                 <h1 className="head_text text-center">
                     Soon I will be back to
@@ -106,7 +109,7 @@ const Store = () => {
                         <p class="mt-4 text-sm leading-6 col-start-1 sm:col-span-2 lg:mt-6 lg:row-start-4 lg:col-span-1 dark:text-slate-400">
                             We present to you an unbeatable union between the elegance of the Invicta brand and the power of the anti-hero
                             <a className='font-bold ' href="https://invictastores.com/invicta-marvel-punisher-men-s-watch-48mm-gunmetal-32420"> Marvel Punisher. The Invicta Marvel Punisher </a>
-                             watch is the perfect choice for fans of sophisticated watches who want to express their passion for the bravest heroes. Get ready to show your unique personality while dominating time in style!
+                            watch is the perfect choice for fans of sophisticated watches who want to express their passion for the bravest heroes. Get ready to show your unique personality while dominating time in style!
                         </p>
                     </div>
                 </main>
@@ -162,6 +165,7 @@ const Store = () => {
                 </button>
             </Link>
             <br />
+
         </>
     )
 }
