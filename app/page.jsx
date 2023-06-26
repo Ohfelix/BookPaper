@@ -1,7 +1,7 @@
 import Feed from "@components/Feed"
 
 
-const Page = () => {
+const Home = () => {
 
     return (
         <>          
@@ -21,4 +21,4 @@ const Page = () => {
     )
 }
 
-export default Page;
+export default Home;
