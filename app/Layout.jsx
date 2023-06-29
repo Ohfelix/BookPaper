@@ -4,7 +4,6 @@ import Provider from '@components/Provider'
 
 
 
-
 export const metadata = {
     title: "BookPaper",
     description: 'Your Readings need to be remembered !'

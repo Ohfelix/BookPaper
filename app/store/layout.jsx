@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Storelayout({ children }) {
+export default function RootLayout({ children }) {
     return (
         <div>{children}</div>
     )
