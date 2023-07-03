@@ -4,6 +4,7 @@ import Provider from '@components/Provider'
 
 
 
+
 export const metadata = {
   title: "BookPaper",
   description: 'Your Readings need to be remembered !'
@@ -11,13 +12,20 @@ export const metadata = {
 
 const RootLayout = ({ children }) => (
   <>
-    <Provider>
-
-      <Nav />
-      {children}
-
-    </Provider>
-
+    <html lang='en'>
+      <body>
+        <Provider>
+          {/*         <div className='main'>
+            <div className='gradient' />
+          </div>
+   */}
+          <Nav />
+          {children}
+          {/* <main className='app'>
+          </main> */}
+        </Provider>
+      </body>
+    </html>
   </>
 );
 

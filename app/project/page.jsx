@@ -33,7 +33,7 @@ export default function Project() {
                     <div className='center-text'>
                         <img width={60} className='flex p-0.5' src="/assets/images/5.png" />
                     </div>
-                    <strong className='ml-3 pt-2'>Mongo DB.</strong>
+                    <strong className='ml-3 pt-2 bg-none'>Mongo DB.</strong>
                 </div>
 
             </div>
