@@ -35,14 +35,8 @@ const Nav = () => {
             {/* \DESKTOP NAVIGATION */}
             <div className="sm:flex hidden">
                 {session?.user ? (
-                    <div className="flex gap-3 md:gap-5">
-                        <Link href="/felix"
-                        type="button"
-                            className=" bg-blue-600 text-white text-center text-sm leading-6 font-large p-3 py-2 px-3 rounded-xl "
-                            onClick={() => setToggleDropdown
-                                (false)}>
-                            About me !
-                        </Link>
+                    <div className="flex gap-3 p-3 md:gap-5">
+
                         <Link href="/create-prompt"
                             className="black_btn">
                             Create Note
@@ -52,15 +46,14 @@ const Nav = () => {
                             className="outline_btn">
                             Sign Out
                         </button>
-                        <Link href="/profile">
-                            <Image
-                                src={session?.user.image}
-                                width={37}
-                                height={37}
-                                className="rounded-full"
-                                alt="profile"
-                            />
-                        </Link>
+                        <Image
+                            src={session?.user.image}
+                            width={37}
+                            height={37}
+                            className="rounded-full"
+                            alt="profile"
+                        />
+
                     </div>
                 ) : (
                     <>
@@ -93,20 +86,6 @@ const Nav = () => {
                         />
                         {toggleDropdown && (
                             <div className="dropdown">
-                                <Link href="/felix"
-                                    className="dropdown_link bg-blue-600 text-white text-sm leading-6 font-medium p-3 py-2 px-3 rounded-lg "
-                                    onClick={() => setToggleDropdown
-                                        (false)}>
-                                    About me !
-                                </Link>
-
-                                <Link href="/profile"
-                                    className="dropdown_link"
-                                    onClick={() => setToggleDropdown
-                                        (false)}
-                                >
-                                    My Profile
-                                </Link>
                                 <Link href="/create-prompt"
                                     className="dropdown_link"
                                     onClick={() => setToggleDropdown
