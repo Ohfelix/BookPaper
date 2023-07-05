@@ -1,4 +1,5 @@
 import Feed from "@components/Feed";
+import RootLayout from "./create-prompt/layout";
 
 
 const Home = () => (
@@ -16,10 +17,7 @@ const Home = () => (
                 </p>
 
             </section>
-        {/* feed section starts here */}
-        <Feed/>
-        {/* footer component start  here*/}
-
+      <RootLayout/>
 
 
 

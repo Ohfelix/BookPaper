@@ -1,6 +1,7 @@
 import '@styles/globals.css'
 import Nav from '@components/Nav'
 import Provider from '@components/Provider'
+import Feed from '@components/Feed';
 
 
 
@@ -21,8 +22,7 @@ const RootLayout = ({ children }) => (
    */}
           <Nav />
           {children}
-          {/* <main className='app'>
-          </main> */}
+          <Feed />
         </Provider>
       </body>
     </html>
