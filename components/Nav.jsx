@@ -22,7 +22,7 @@ const Nav = () => {
     }, [])
 
     return (
-        <nav className=" sm: first-letter flex justify-between w-full mb-16 pt-3">
+        <nav className=" sm: first-letter flex justify-between w-full p-4 mb-16 pt-3">
             <Link href='/' className="flex gap-2 flex-center">
                 <Image
                     src='/assets/icons/book.png'

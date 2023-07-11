@@ -6,7 +6,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
       <h1 className='head_text text-left'>
         <span className='blue_gradient'>{type} Post</span>
       </h1>
-      <p className='desc text-left max-w-md'>
+      <p className='desc text-left max-w-md p-2'>
         We believe that each book carries with it unique wisdom and transformative power. That's why we invite you to leave your mark by sharing that phrase that touched your heart, that lit your path or that awakened something special in you. We want to create a collective space of inspiration, where each sentence becomes a small treasure for those who find it.
       </p>
 
